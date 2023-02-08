@@ -35,11 +35,11 @@ const TodoView = () => {
   }
 
   return (
-    <>
+    <div>
       <h1>Todos</h1>
       <Form createTodo={createTodo} />
       <List todos={todos} deleteTodo={deleteTodo} completeTodo={completeTodo} />
-    </>
+    </div>
   )
 }
 
