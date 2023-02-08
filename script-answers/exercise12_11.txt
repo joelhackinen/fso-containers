@@ -1,0 +1,3 @@
+Script started on 2023-02-08 21:34:06+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="188" LINES="12"]
+docker exec -it c4b2e639370d bash[D[Credis-cliKEYS *GET added_todosSET added_todos 9001GET added_todosDEL added_todosGET added_todosGET added_todosexitexitexit
+Script done on 2023-02-08 21:39:29+02:00 [COMMAND_EXIT_CODE="0"]
