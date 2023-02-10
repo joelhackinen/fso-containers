@@ -12,9 +12,9 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
 
   return (
     <div>
-      {todos.map((todo, i) => 
+      {todos.map((todo, i) => (
         <Todo key={i} todo={todo} completeTodo={onClickComplete} deleteTodo={onClickDelete}/>
-      ).reduce((acc, cur) => [...acc, <hr />, cur], [])}
+      )).reduce((acc, cur) => [...acc, <hr />, cur], [])}
     </div>
   )
 }
