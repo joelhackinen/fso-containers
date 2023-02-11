@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-ENV REACT_APP_BACKEND_URL=api/
+ENV REACT_APP_BACKEND_URL /api
 
 RUN npm install
 
